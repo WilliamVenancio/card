@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0px 2px 18px #254897a3;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.mediaCard {
+    background: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_15.jpg) center/cover;
+    height: 300px;
+    width: 100%;
+}
+
+.title {
+    color: #2b3d59;
+}
+
+.secondText {
+    color: #828fa1;
+}
+
+.bottomText {
+    color: #445b73;
+}
+
+.topCard {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+.actions {
+    background: none;
+    border: none;
+    color: #ff00c8;
+    cursor: pointer;
+}
+
+.actions2 {
+    background: none;
+    border: none;
+    color: #ff00c8;
+    cursor: pointer;
+}
